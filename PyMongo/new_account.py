@@ -4,6 +4,8 @@ import os
 from dotenv import load_dotenv
 from pymongo import MongoClient
 
+from bson.decimal128 import Decimal128
+
 # Load config from .env file
 load_dotenv()
 MONGODB_URI = os.environ["MONGODB_URI"]
@@ -18,11 +20,17 @@ db = client.bank
 accounts_collection = db.accounts
 
 new_account = {
-    "account_holder": "Linus Torbalds",
-    "account_id": "MDB829001337",
+    "account_holder": "Kate Stone",
+    "account_id": "MDB333829449",
     "account_type": "checking",
-    "balance": 50352434,
-    "last_updated": datetime.datetime.utcnow()
+    "balance": Decimal128('4688'),
+    'transfers_complete': [
+        'TR854412948',
+        'TR413308451',
+        'TR328078274',
+        'TR192714918',
+        'TR263422717',
+    ]
 }
 
 # Write an expression that inserts the 'new_account' document into the 'accounts' collection
