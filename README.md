@@ -4,6 +4,7 @@
 2. [Insert Multiple Records](#insert-multiple-records-createrud)
 3. [Find One Record](#find-one-record-from-the-database-creadud)
 4. [Find Multiple Records from the Database](#find-multiple-records-from-the-database-creadud)
+5. [Update a Single Document ***CRUpdateD***](#update-a-single-document-crupdated)
 
 ## MongoDB connection
 ```python
