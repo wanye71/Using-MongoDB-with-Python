@@ -25,10 +25,16 @@ db = client.bank
 accounts_collection = db.accounts
 
 # filter
-document_to_update = {"_id": ObjectId("660ebf1ad1ad048cf377f4a6")}
+document_to_update = {"account_id": "MDB333829449"}
 
 # Update
-add_to_balance = {"$inc": {"balance": 100}}
+add_to_balance = {"$addToSet": {"transfers_complete": [
+        'TR854412948',
+        'TR413308451',
+        'TR328078274',
+        'TR192714918',
+        'TR263422717',
+    ]}}
 
 # Print original document
 pprint.pprint(accounts_collection.find_one(document_to_update))

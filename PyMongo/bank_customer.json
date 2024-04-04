@@ -1,0 +1,153 @@
+[
+    {
+      "account_id": "MB011235814",
+      "account_holder": "John Doe",
+      "account_type": "Savings",
+      "balance": 5000
+    },
+    {
+      "account_id": "MB011235815",
+      "account_holder": "Jane Smith",
+      "account_type": "Checking",
+      "balance": 7000
+    },
+    {
+      "account_id": "MB011235816",
+      "account_holder": "Michael Johnson",
+      "account_type": "Savings",
+      "balance": 3000
+    },
+    {
+      "account_id": "MB011235817",
+      "account_holder": "Emily Davis",
+      "account_type": "Checking",
+      "balance": 10000
+    },
+    {
+      "account_id": "MB011235818",
+      "account_holder": "Chris Brown",
+      "account_type": "Savings",
+      "balance": 8500
+    },
+    {
+      "account_id": "MB011235819",
+      "account_holder": "Sarah Wilson",
+      "account_type": "Checking",
+      "balance": 4000
+    },
+    {
+      "account_id": "MB011235820",
+      "account_holder": "Ryan Martinez",
+      "account_type": "Savings",
+      "balance": 6000
+    },
+    {
+      "account_id": "MB011235821",
+      "account_holder": "Jessica Taylor",
+      "account_type": "Checking",
+      "balance": 9500
+    },
+    {
+      "account_id": "MB011235822",
+      "account_holder": "David Anderson",
+      "account_type": "Savings",
+      "balance": 2000
+    },
+    {
+      "account_id": "MB011235823",
+      "account_holder": "Amanda Thomas",
+      "account_type": "Checking",
+      "balance": 12000
+    },
+    {
+      "account_id": "MB011235824",
+      "account_holder": "Daniel Garcia",
+      "account_type": "Savings",
+      "balance": 7500
+    },
+    {
+      "account_id": "MB011235825",
+      "account_holder": "Nicole Hernandez",
+      "account_type": "Checking",
+      "balance": 8500
+    },
+    {
+      "account_id": "MB011235826",
+      "account_holder": "Matthew Young",
+      "account_type": "Savings",
+      "balance": 5000
+    },
+    {
+      "account_id": "MB011235827",
+      "account_holder": "Rebecca Lopez",
+      "account_type": "Checking",
+      "balance": 3000
+    },
+    {
+      "account_id": "MB011235828",
+      "account_holder": "Kevin King",
+      "account_type": "Savings",
+      "balance": 20000
+    },
+    {
+      "account_id": "MB011235829",
+      "account_holder": "Laura Scott",
+      "account_type": "Checking",
+      "balance": 6000
+    },
+    {
+      "account_id": "MB011235830",
+      "account_holder": "Justin Green",
+      "account_type": "Savings",
+      "balance": 9500
+    },
+    {
+      "account_id": "MB011235831",
+      "account_holder": "Melissa Hall",
+      "account_type": "Checking",
+      "balance": 4000
+    },
+    {
+      "account_id": "MB011235832",
+      "account_holder": "Brandon Adams",
+      "account_type": "Savings",
+      "balance": 3000
+    },
+    {
+      "account_id": "MB011235833",
+      "account_holder": "Stephanie Baker",
+      "account_type": "Checking",
+      "balance": 11000
+    },
+    {
+      "account_id": "MB011235834",
+      "account_holder": "Brian Ross",
+      "account_type": "Savings",
+      "balance": 8000
+    },
+    {
+      "account_id": "MB011235835",
+      "account_holder": "Rachel Campbell",
+      "account_type": "Checking",
+      "balance": 7500
+    },
+    {
+      "account_id": "MB011235836",
+      "account_holder": "Mark Mitchell",
+      "account_type": "Savings",
+      "balance": 4000
+    },
+    {
+      "account_id": "MB011235837",
+      "account_holder": "Megan Roberts",
+      "account_type": "Checking",
+      "balance": 9200
+    },
+    {
+      "account_id": "MB011235838",
+      "account_holder": "Eric Wood",
+      "account_type": "Savings",
+      "balance": 5500
+    }
+  ]
+  

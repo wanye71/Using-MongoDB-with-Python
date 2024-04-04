@@ -1,5 +1,6 @@
 import datetime
 import os
+import json
 
 from dotenv import load_dotenv
 from pymongo import MongoClient
@@ -17,20 +18,11 @@ db = client.bank
 # Get reference to 'accounts' colleftion
 accounts_collection = db.accounts
 
-new_accounts = [
-    {
-        "account_id": "MB011235813",
-        "account_holder": "Ada Lovelace",
-        "account_type": "checking",
-        "balance": 60218,
-    },
-    {
-        "account_id": "MDB829000001",
-        "account_holder": "Muhammad ibn Musa al-Khwarizmi",
-        "account_type": "checking",
-        "balance": 267914296,
-    },
-]
+# Read the contents of the JSON file
+with open('bank_customer.json', 'r') as file:
+    json_data = json.load(file)
+
+new_accounts = list(json_data)
 
 # Write an expression that inserts the 'new_account' document into the 'accounts' collection
 result = accounts_collection.insert_many(new_accounts)
