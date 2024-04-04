@@ -37,7 +37,7 @@ new_document = {
     ]
 }
 ```
-## Insert a single record
+## Insert a single record ***CreateRUD***
 ```python
 import datetime
 import os
@@ -76,7 +76,7 @@ print(f"_id of inserted document: {document_ids}")
 client.close()
 ```
 
-## Insert multiple records
+## Insert multiple records ***CreateRUD***
 ```python
 import datetime
 import os
@@ -122,8 +122,7 @@ print(f"_id of inserted document: {document_ids}")
 client.close()
 ```
 
-# Querying a MongoDB collection in Python applications
-## Find one (find_one) record from the database
+## Find one (find_one) record from the database ***CReadUD***
 ```python
 import os
 import pprint
