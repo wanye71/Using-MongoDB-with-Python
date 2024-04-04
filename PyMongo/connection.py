@@ -1,8 +1,16 @@
+import os
+
+from  dotenv import load_dotenv
 from pymongo import MongoClient
 
-MONGO_URI = "mongodb+srv://techwithwayne:Tylerhaller!23@cluster0.kswvxmx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+# Load config from .env file
+load_dotenv()
 
-client = MongoClient(MONGO_URI)
+MONGODB_URI = os.environ["MONGODB_URI"]
+
+client = MongoClient(MONGODB_URI)
 
 for db_name in client.list_database_names():
     print(db_name)
+
+client.close()
