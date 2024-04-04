@@ -6,8 +6,8 @@
 4. [Find Multiple Records from the Database ***CRreadUD***](#find-multiple-records-from-the-database-creadud)
 5. [Update a Single Document ***CRUpdateD***](#update-a-single-document-crupdated)
 6. [Update Multiple Documents ***CRUpdateD***](#update-multiple-documents-crupdated)
-7. [Delete Single Document ***CRUDelete***](#delete-single=document-crudelete)
-8. [Delete Multiple Documents ***CRUDelete***](#delete-multiple=documents-crudelete)
+7. [Delete Single Document ***CRUDelete***](#delete-single-document-crudelete)
+8. [Delete Multiple Documents ***CRUDelete***](#delete-multiple-documents-crudelete)
 
 ## MongoDB connection
 ```python
