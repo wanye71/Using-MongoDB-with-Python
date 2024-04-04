@@ -2,8 +2,8 @@
 ## Table of Contents
 1. [Insert a Single Record](#insert-a-single-record-createrud)
 2. [Insert Multiple Records](#insert-multiple-records-createrud)
-3. [Find One Record ](#find-one-record-from-the-database-creadud)
-
+3. [Find One Record](#find-one-record-from-the-database-creadud)
+4. [Find Multiple Records from the Database](#find-multiple-records-from-the-database-creadud)
 
 ## MongoDB connection
 ```python
@@ -162,7 +162,7 @@ pprint.pprint(result)
 client.close()
 ```
 
-## Find multiple (find_multiple) records from the database ***CReadUD***
+## Find Multiple Records from the Database ***CReadUD***
 ```python
 import os
 import pprint
