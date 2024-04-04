@@ -35,7 +35,7 @@ new_accounts = [
 # Write an expression that inserts the 'new_account' document into the 'accounts' collection
 result = accounts_collection.insert_many(new_accounts)
 
-document_ids = result.inserted_id
+document_ids = result.inserted_ids
 print("# of documents inserted: " + str(len(document_ids)))
 print(f"_id of inserted document: {document_ids}")
 
