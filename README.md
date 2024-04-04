@@ -1,7 +1,7 @@
 # Using Python with MongoDB
 ## Table of Contents
-1. [Insert a single record](#insert-a-single-record-createrud)
-2. [Insert a single record](#insert-a-multiple-records-createrud)
+1. [Insert a Single Record](#insert-a-single-record-createrud)
+2. [Insert Multiple Records](#insert-multiple-records-createrud)
 
 
 ## MongoDB connection
