@@ -16,3 +16,12 @@ new_document = {
         "TR586833243",
     ]
 }
+
+{
+    "_id": ObjectId("$oid":"660edf11341b9fa1c3ee7a4d"),"account_id":"MB011235818",
+    "account_holder":"Chris Brown",
+    "account_type":"Savings",
+    "balance":{"$numberInt":"8500"},
+    "minimum_balance":{"$numberInt":"100"},
+    "earned_interest":{"$numberInt":"500"},"transfers_completed":[]
+}
