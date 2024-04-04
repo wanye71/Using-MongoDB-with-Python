@@ -2,7 +2,7 @@
 ## Table of Contents
 1. [Insert a Single Record](#insert-a-single-record-createrud)
 2. [Insert Multiple Records](#insert-multiple-records-createrud)
-3. [Find One Record](#find-one-record-from-the-database-createrud)
+3. [Find One Record ](#find-one-record-from-the-database-createrud)
 
 
 ## MongoDB connection
