@@ -7,6 +7,7 @@
 5. [Update a Single Document ***CRUpdateD***](#update-a-single-document-crupdated)
 6. [Update Multiple Documents ***CRUpdateD***](#update-multiple-documents-crupdated)
 7. [Delete Single Document ***CRUDelete***](#delete-single=document-crudelete)
+8. [Delete Multiple Documents ***CRUDelete***](#delete-multiple=documents-crudelete)
 
 ## MongoDB connection
 ```python
@@ -333,6 +334,45 @@ print("Searching for target document after delete: ")
 pprint.pprint(accounts_collection.find_one(document_to_delte))
 
 print("Document(s) deleted: " + str(result.deleted_count))
+
+client.close()
+```
+
+## Delete Multiple Documents ***CRUDelete***
+```python
+import os
+import pprint
+
+from dotenv import load_dotenv
+from pymongo import MongoClient
+
+# Load config from .env file
+load_dotenv()
+MONGODB_URI = os.environ["MONGODB_URI"]
+
+# Connect to MongoDB cluster with MongoClient
+client = MongoClient(MONGODB_URI)
+
+# Get reference to 'bank' database
+db = client.bank
+
+# Get reference to the 'accounts' collection
+accounts_collection = db.accounts
+
+# Filter for accounts with balance less than $2000
+documents_to_delete = {"balance": {"$lt": 7000}}
+
+# Search for sample document before delete
+print("Searching for sample target document before delete: ")
+pprint.pprint(accounts_collection.find_one(documents_to_delete))
+
+# Write an expression that deletes the target accounts.
+result = accounts_collection.delete_many(documents_to_delete)
+
+print("Searching for sample target document after delete:")
+pprint.pprint(accounts_collection.find_one(documents_to_delete))
+
+print("Documents deleted: " + str(result.deleted_count))
 
 client.close()
 ```
