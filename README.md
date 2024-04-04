@@ -1,6 +1,6 @@
 # Using Python with MongoDB
 ## Table of Contents
-1. [Insert a single record](#insert-a-single-record)
+1. [Insert a single record](#insert-a-single-record-createrud)
 ## MongoDB connection
 ```python
 from  dotenv import load_dotenv
