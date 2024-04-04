@@ -1,5 +1,5 @@
 ## Sync remote repo to local
-1. ***git remote add origin <remote repo>***
+1. ***git remote add origin (remote repo)***
 
 2. ***git pull origin main***
 
