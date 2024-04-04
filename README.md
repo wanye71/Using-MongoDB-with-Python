@@ -1,10 +1,11 @@
 # Using Python with MongoDB
 ## Table of Contents
-1. [Insert a Single Record](#insert-a-single-record-createrud)
-2. [Insert Multiple Records](#insert-multiple-records-createrud)
-3. [Find One Record](#find-one-record-from-the-database-creadud)
-4. [Find Multiple Records from the Database](#find-multiple-records-from-the-database-creadud)
+1. [Insert a Single Record ***CreateRUD***](#insert-a-single-record-createrud)
+2. [Insert Multiple Records ***CreateRUD***](#insert-multiple-records-createrud)
+3. [Find One Record ***CRreadUD***](#find-one-record-from-the-database-creadud)
+4. [Find Multiple Records from the Database ***CRreadUD***](#find-multiple-records-from-the-database-creadud)
 5. [Update a Single Document ***CRUpdateD***](#update-a-single-document-crupdated)
+6. [Update Multiple Documents ***CRUpdateD***](#update-multiple-documents-crupdated)
 
 ## MongoDB connection
 ```python
@@ -252,7 +253,7 @@ pprint.pprint(accounts_collection.find_one(document_to_update))
 
 client.close()
 ```
-## Update a multiple documents ***CRUpdateD***
+## Update Multiple Documents ***CRUpdateD***
 ```python
 import os
 
