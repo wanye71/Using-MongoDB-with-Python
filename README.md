@@ -2,7 +2,7 @@
 ## Table of Contents
 1. [Insert a Single Record](#insert-a-single-record-createrud)
 2. [Insert Multiple Records](#insert-multiple-records-createrud)
-3. [Find One Record](#find-one-find_one-record-from-the-database-createrud)
+3. [Find One Record](#find-one-record-from-the-database-createrud)
 
 
 ## MongoDB connection
@@ -128,7 +128,7 @@ print(f"_id of inserted document: {document_ids}")
 client.close()
 ```
 
-## Find one (find_one) record from the database ***CReadUD***
+## Find One Record from the Database ***CReadUD***
 ```python
 import os
 import pprint
