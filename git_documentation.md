@@ -4,3 +4,11 @@
 2. ***git pull origin main***
 
 3. ***git fetch origin main***
+
+
+
+mongodb+srv://techwithwayne:<password>@cluster0.kswvxmx.mongodb.net/
+
+mongodb+srv://techwithwayne:<password>@cluster0.kswvxmx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+mongodb+srv://techwithwayne:<password>@cluster0.kswvxmx.mongodb.net/
