@@ -13,7 +13,7 @@
 9. [Creating Transactions](#creating-transactions)
 ### Aggregation
 10. [Match and Grouping](#match-and-grouping)
-11. [Sort and Progect](#sort-and-project)
+11. [Sort and Project](#sort-and-project)
 
 ## MongoDB connection
 ```python
@@ -496,7 +496,7 @@ for item in results:
 
 client.close()
 ```
-## Sort and Progect
+## Sort and Project
 ```python
 import os
 import pprint
