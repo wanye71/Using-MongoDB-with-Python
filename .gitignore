@@ -4,7 +4,7 @@ __pycache__/
 *$py.class
 /.env
 git_documentation.md
-/PyMongo/sample.py
+PyMongo/sample.py
 # C extensions
 *.so
 

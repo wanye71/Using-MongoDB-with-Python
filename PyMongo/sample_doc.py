@@ -18,7 +18,7 @@ new_document = {
 }
 
 {
-    "_id": ObjectId("$oid":"660edf11341b9fa1c3ee7a4d"),"account_id":"MB011235818",
+    "_id": ("$oid":"660edf11341b9fa1c3ee7a4d"),"account_id":"MB011235818",
     "account_holder":"Chris Brown",
     "account_type":"Savings",
     "balance":{"$numberInt":"8500"},
