@@ -13,6 +13,7 @@
 9. [Creating Transactions](#creating-transactions)
 ### Aggregation
 10. [Match and Grouping](#match-and-grouping)
+11. [Sort and Progect](#sort-and-project)
 
 ## MongoDB connection
 ```python
